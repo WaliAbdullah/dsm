@@ -1,0 +1,11 @@
+# Created by Octave 4.2.2, Tue Sep 17 13:09:44 2019 MDT <wali@Wali-Linux>
+# name: D
+# type: matrix
+# rows: 6   
+# columns: 6
+ 0 1 1 0 0 0
+ 0 0 0 1 0 0
+ 0 0 0 0 1 0
+ 0 0 0 0 0 0
+ 0 0 0 0 0 1
+ 0 0 0 0 0 0
