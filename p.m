@@ -15,7 +15,7 @@ endif
 %    Y(i,i)=0;
 %    Y(i,E(i))=1;
 %endfor
-Expected_Cluster=D(E,E);
+Expected_Cluster=D(E,E)
 %Z=D*Y;
 %Expected_Cluster=Y*Z
 %status = odswrite ('output.ods', Expected_Cluster,'expected');

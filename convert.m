@@ -18,6 +18,14 @@
 %F=E';
 %status = odswrite ('list.ods', F,'T50');
 
-load T100_out; 
+%load T100_out; 
+%F=E';
+%status = odswrite ('list.ods', F,'T100');
+
+%load T_in; 
+%F=E';
+%status = odswrite ('list.ods', F,'Tin');
+
+load T_out; 
 F=E';
-status = odswrite ('list.ods', F,'T100');
+status = odswrite ('list.ods', F,'Tout');
