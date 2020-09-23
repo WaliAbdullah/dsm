@@ -1,0 +1,26 @@
+Threshold=0.3
+Select Functions from D matrix
+
+
+Hub Cluster: 42 44 28
+
+Authority Cluster: 27 51 63
+
+Hub Cluster: 37 4 26
+
+Authority Cluster: 57 47 55 62 20
+
+Hub Cluster: 29 1 25 36 45
+
+Authority Cluster: 53 52 54 40
+
+Hub Cluster: 9 2 11 10
+
+Authority Cluster: 16 60 59 41 32
+
+Hub Cluster: 33 6 15
+
+
+
+Participated Functions: 42 44 28 27 51 63 37 4 26 57 47 55 62 20 29 1 25 36 45 53 52 54 40 9 2 11 10 16 60 59 41 32 33 6 15
+Missing Functions: 3 5 7 8 12 13 14 17 18 19 21 22 23 24 30 31 34 35 38 39 43 46 48 49 50 56 58 61 64
