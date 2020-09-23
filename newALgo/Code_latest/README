@@ -1,0 +1,39 @@
+
+
+# Source File: gen_ods.m file
+# Two input files:  1) D matrix (CSparse) named as "input_D.mat"
+                    2) we list the ID of functions in "expected_output.mat" file
+
+# This program will re arrange the D matrix (from input_D.mat) according to the serial in "expected_output.mat"
+# Finally the rearranged matrix (Expected_Cluster) is saved in "output.ods" file in sheet "expected"
+
+##  Note: In this folder, we see, we dont have output.ods. Actually this code will not run here.
+    Before running the code we have to copy the following files to the parent directory and then run gen_ods.m from octave
+    Files: gen_ods.m, input_D.mat, expected_output.mat
+*********************************************************
+
+1. How to generated expected_output.mat?
+#Source file: algo2.m
+#input: D matrix (CSparse) named as "input_D.mat"
+#Set: Threshold and run the code from Octave
+#Save the result in a text file to identify hubs, authorites and their tiers
+#Acording to the output update expected_output.mat 
+
+2. How to get the function names of expected_output?
+#Source: convert.m
+#input: expected_output.mat
+#output: File: list.ods, sheet: expected
+# Using file: functionMAP.ods. We can copu and paste the list from list to this file to get the function names
+
+##  Note: In this folder, we see, this code will not run here.
+    Before running the code we have to copy the following files to the parent directory and then run convert.m from octave
+    Files: convert.m, expected_output.mat, list.ods
+
+3. Last point of 1 (Acording to the output update expected_output.mat). How do we do that?
+# Store the ouptput of algo2.m in result_csparse_3 file
+# Find list of participated nodes (result_participated_node.mat). 
+# Using code miss.m find the missing nodes. Here input file is (result_participated_node.mat)
+# Finally join these lists <participated nodes, Missing nodes> to create expected_output.mat
+    
+
+4. Finally, to format the relationship matrix between hub-authority use file "output_formating.ods"
